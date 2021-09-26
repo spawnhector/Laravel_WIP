@@ -8,4 +8,5 @@
 
 <h1>Coruse Page</h1>
 
+
 @endsection
