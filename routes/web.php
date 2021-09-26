@@ -45,6 +45,10 @@ Route::post("/user/profile/store",[ProfileController::class,"updateProfile"])->n
 // Admin
 
 Route::get("/admin/index",[AdminController::class,"index"])->name("Admin");
+Route::get("/admin/students",[AdminController::class,"students"])->name("students");
+Route::get("/admin/course",[AdminController::class,"courses"])->name("course");
+Route::get("/admin/type",[AdminController::class,"type"])->name("type");
+Route::get("/admin/selection",[AdminController::class,"selections"])->name("selection");
 
 
 

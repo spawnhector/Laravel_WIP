@@ -15,11 +15,11 @@
     <div class=" bg-white p-4 h-full w-2/12">
         <h1 class="text-3xl font-extrabold text-center text-blue-600 mb-6">Admin</h1>
         <ul>
-            <li class="py-2 px-2 bg-blue-600 text-white cursor-pointer">Students</li>
-            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer">Courses</li>
-            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer">Course Type</li>
-            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer">Course Selection</li>
-            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3 hover:text-white cursor-pointer">Logout</li>
+            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer"><a href="{{route('students')}}" class="w-full">Students</a></li>
+            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer"><a href="{{route('course')}}" class="w-full">Course</a></li>
+            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer"><a href="{{route('type')}}" class="w-full">Course Type</a></li>
+            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer"><a href="{{route('selection')}}" class="w-full">Course Selection</a></li>
+            <li class="py-2 px-2 hover:bg-blue-600 duration-300 mt-3  hover:text-white cursor-pointer"><a href="{{route('Logout')}}" class="w-full">Logout</a></li>
         </ul>
     </div>
     <div class="w-10/12 h-full flex justify-center items-center bg-gray-300">
